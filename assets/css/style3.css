@@ -1,0 +1,64 @@
+/* Stylesheet for Portfolio Image Boxes */
+img {
+    border: 1px solid #dddddd;
+    margin: 10px;
+}
+
+p {
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.row1 {
+    position: relative;
+}
+
+.row2 {
+    position: relative;
+}
+
+.row3 {
+    position: relative;
+}
+
+#box1 {
+    position: absolute;
+    background: #4aaaa5;
+    bottom: 625px;
+    left: 10px;
+    width: 251px;
+}
+
+#box2 {
+    position: absolute;
+    background: #4aaaa5;
+    bottom: 625px;
+    left: 286px;
+    width: 251px;
+}
+
+#box3 {
+    position: absolute;
+    background: #4aaaa5;
+    bottom: 43px;
+    left: 10px;
+    width: 251px;
+}
+
+#box4 {
+    position: absolute;
+    background: #4aaaa5;
+    bottom: 43px;
+    left: 286px;
+    width: 251px;
+}
+
+#box5 {
+    position: absolute;
+    background: #4aaaa5;
+    bottom: 43px;
+    left: 10px;
+    width: 251px;
+}

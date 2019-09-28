@@ -1,0 +1,27 @@
+/* Stylesheet for Contact Boxes */
+main {
+    line-height: 2;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    color: #777777;
+}
+
+#messageBox {
+    margin-bottom: 10px;
+    resize: vertical;
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
