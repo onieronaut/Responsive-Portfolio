@@ -123,5 +123,33 @@ footer h4{
 }
 
 @media screen and (max-width: 640px) {
-    
+    h1 {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+
+    .name {
+        margin: 0;
+        text-align: center;
+    }
+
+    nav {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    ul {
+        float: none;
+    }
+
+    .container {
+        width: 600px;
+    }
+    #face {
+        float: none;
+        margin: auto;
+        display: block;
+    }
 }
