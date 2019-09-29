@@ -119,10 +119,15 @@ footer h4{
 }
 
 @media screen and (max-width: 768px) {
-    
+
 }
 
 @media screen and (max-width: 640px) {
+
+    .container {
+        width: 100%;
+        max-width: 640px;
+    }
     h1 {
         width: 100%;
         float: none;
@@ -147,9 +152,37 @@ footer h4{
     .container {
         width: 600px;
     }
+
     #face {
         float: none;
         margin: auto;
         display: block;
+    }
+
+    main {
+        margin: 30px;
+    }
+
+    .row1 {
+        text-align: center;
+    }
+
+    #box1,
+    #box3,
+    #box5 {
+        height: 47px;
+        top: 186px;
+        margin-left: 113px;
+    }
+
+    #box2 {
+        height: 47px;
+        top: 476px;
+        margin-left: -163px;
+    }
+
+    #box4 {
+        height: 47px;
+        margin-left: -163px;
     }
 }
