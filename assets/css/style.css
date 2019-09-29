@@ -114,14 +114,59 @@ footer h4{
     color: #ffffff;
 }
 
-@media screen and (max-width: 980px) {
 
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 100%;
+        max-width: 980px;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 768px;
+    }
 
+    .name {
+        float: left;
+        margin: 0;
+        position: absolute;
+        bottom: 13px;
+    }
+
+    nav {
+        margin-right: 0px;
+    }
+    
+    #face {
+        width: 325px;
+        height: 325px;
+    }
+    
+    main {
+        margin: 30px;
+    }
+    .row1 {
+        text-align: center;
+    }
+    footer {
+        padding: 10px;
+    }
+
+    #box1,
+    #box2,
+    #box3,
+    #box4,
+    #box5 {
+        margin-left: 34px;
+    }
+
+    #box5 {
+        margin-left: 171px;
+    }
 }
-
 @media screen and (max-width: 640px) {
 
     .container {
@@ -135,6 +180,9 @@ footer h4{
     }
 
     .name {
+        float: none;
+        position: relative;
+        bottom: 0;
         margin: 0;
         text-align: center;
     }
